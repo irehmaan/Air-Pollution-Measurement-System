@@ -15,12 +15,12 @@ DHT dht(DHTPIN, DHTTYPE);
 // BMP180 config
 Adafruit_BMP085 bmp;
 
-const char* ssid = "JioFiber_4G";
-const char* password = "Playgod@98";
+const char* ssid = "Your_Wifi_name";
+const char* password = "Your Wifi Password";
 
 
-//Your Domain name with URL path or IP address with path
-String serverName = "http://192.168.29.77:5000/receive_data";
+//provide your flask server address
+String serverName = "http://ip_address:port/endpoint";
 
 // the following variables are unsigned longs because the time, measured in
 // milliseconds, will quickly become a bigger number than can be stored in an int.
