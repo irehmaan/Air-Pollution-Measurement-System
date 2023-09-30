@@ -1,6 +1,6 @@
 # Air Pollution Monitoring System
 
-![Project Image](project_image.png)
+
 
 > A real-time environmental data monitoring system that uses ESP32 as a remote sensor node to collect data from sensors such as DHT11, MQ135, BMP180, and more. The data is sent to a Flask server and made available to a Flutter app for real-time monitoring.
 
